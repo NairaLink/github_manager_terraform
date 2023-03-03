@@ -1,10 +1,7 @@
 locals {
 
   respositories = [
-    "frontend",
-    "backend",
-    "documentation",
-    "system-architecture"
+    "automation-cicd-devops"
   ]
 
 }

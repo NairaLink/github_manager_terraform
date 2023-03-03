@@ -2,7 +2,7 @@
 locals {
 
   contributors = [
-    "Adebayo-S", "SlamChillz", "belovetech", "Hizaram" #github username
+    "SlamChillz", "belovetech", "Hizaram" #github username
   ]
 
 }
