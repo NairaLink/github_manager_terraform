@@ -20,15 +20,15 @@ data "github_repository" "manage_github" {
 }
 
 # Set permissions to manage-github for contributors github team
-resource "github_team_repository" "manage_github_contributors" {
-  team_id    = github_team.contributors.id
-  repository = data.github_repository.manage_github.name
-  permission = "push"
-}
+# resource "github_team_repository" "manage_github_contributors" {
+#   team_id    = github_team.contributors.id
+#   repository = data.github_repository.manage_github.name
+#   permission = "push"
+# }
 
-# Set permissions to manage-github for codeowners github team
-resource "github_team_repository" "manage_github_codeowners" {
-  team_id    = github_team.codeowners.id
-  repository = data.github_repository.manage_github.name
-  permission = "push"
-}
+# # Set permissions to manage-github for codeowners github team
+# resource "github_team_repository" "manage_github_codeowners" {
+#   team_id    = github_team.codeowners.id
+#   repository = data.github_repository.manage_github.name
+#   permission = "push"
+# }
