@@ -4,7 +4,6 @@ locals {
     "frontend",
     "backend",
     "documentation",
-    "automation-cicd-devops",
     "system-architecture"
   ]
 
