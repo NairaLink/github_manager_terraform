@@ -2,7 +2,7 @@
 locals {
 
   codeowners = [
-    "SlamChillz", "belovetech", "Hizaram" #github username
+    "Adebayo-S", "SlamChillz", "belovetech", "Hizaram" #github username
   ]
 
 }
