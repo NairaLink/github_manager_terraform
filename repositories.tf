@@ -67,9 +67,9 @@ resource "github_branch" "branch_development" {
 #   source_branch = "main"
 # }
 
-resource "github_branch_default" "default" {
-  count = length(github_repository.respositories)
+# resource "github_branch_default" "default" {
+#   count = length(github_repository.respositories)
 
-  repository = github_repository.respositories[count.index].name
-  branch     = "main"
-}
+#   repository = github_repository.respositories[count.index].name
+#   branch     = "main"
+# }
