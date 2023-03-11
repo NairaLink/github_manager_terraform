@@ -41,7 +41,7 @@ resource "github_team_members" "frontenders" {
 
 # Set permissions to respositories for frontenders github team
 resource "github_team_repository" "frontenders" {
-  for_each = toset(local.fe_respositories)
+  for_each = toset(local.fe_repositories)
 
   team_id    = github_team.frontend.id
   repository = each.value
