@@ -4,7 +4,7 @@ terraform {
     organization = "NairaLink"
 
     workspaces {
-      name = "automation-iac-devops"
+      name = "github_manager_terraform"
     }
   }
 }
